@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614840358262",
+    "lastChanged": "1614841647417",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -45,6 +45,10 @@
                     ],
                     [
                         "Images"
+                    ],
+                    [
+                        "Images",
+                        "background"
                     ],
                     [
                         "Images",
@@ -747,7 +751,7 @@
                         "Monocular_4"
                     ],
                     [
-                        "Portrait Background Segmentation"
+                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -763,6 +767,9 @@
                     ],
                     [
                         "Render Target 2"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -809,10 +816,11 @@
                     ],
                     [
                         "Textures",
-                        "white"
+                        "Portrait Background Segmentation"
                     ],
                     [
-                        "background"
+                        "Textures",
+                        "white"
                     ]
                 ]
             ]
@@ -826,10 +834,10 @@
                     "1614797315356811:3852",
                     "1614797315426811:4049",
                     "1614797374178843:21642",
-                    "1614797587649159:64823",
                     "1614797711070115:99275",
                     "1614802291030071:4535919",
                     "1614802291034461:4535957",
+                    "1614806592027490:17853",
                     "1614807453827935:233598",
                     "1614837545714515:440274"
                 ]
@@ -3596,7 +3604,7 @@
                     },
                     {
                         "k": "982",
-                        "v": "background.png"
+                        "v": "Images\/background.png"
                     },
                     {
                         "k": "984",
@@ -4728,9 +4736,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-04T07:26:50",
+                        "lastModified": "2021-03-04T09:07:11",
                         "name": "Public",
-                        "hash": "a4f7f20c3365684eea6dc7c9d71d7cf9",
+                        "hash": "008f4fa8975f595a6da1fe532f725832",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5540,9 +5548,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T08:00:43",
+                                "lastModified": "2021-03-04T09:07:11",
                                 "name": "Images",
-                                "hash": "e8005631b4cf0e5e4d408463fcb252c6",
+                                "hash": "d361877ddbd99dc340d83ccedc423446",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5563,6 +5571,13 @@
                                         "lastModified": "2021-03-04T00:27:23",
                                         "name": "cloud1.png",
                                         "hash": "a800fb12cb2b7ba388e962324dfd9c33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-04T00:34:26",
+                                        "name": "background.png",
+                                        "hash": "adb6f9e3e8a19a1b7f14a7a571b6f53b",
                                         "children": ""
                                     },
                                     {
@@ -5629,13 +5644,6 @@
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-03-04T00:34:26",
-                                "name": "background.png",
-                                "hash": "adb6f9e3e8a19a1b7f14a7a571b6f53b",
-                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -6095,21 +6103,21 @@
                                 "publicId": "7895",
                                 "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Portrait Background Segmentation",
+                                "type": "1",
+                                "subtype": "14",
+                                "resourceId": "143",
+                                "dependency": "0",
+                                "uid": "1614797453673884:41575",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
-                    },
-                    {
-                        "name": "background",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "25",
-                        "dependency": "0",
-                        "uid": "1614797333380188:6860",
-                        "fileId": "28",
-                        "originalId": "29",
-                        "publicId": "982",
-                        "source": "\/Users\/joyce\/Desktop\/Ramadan-is-here 2\/Public\/background.png",
-                        "additional": ""
                     },
                     {
                         "name": "FaceEvent",
@@ -7210,19 +7218,6 @@
                         ]
                     },
                     {
-                        "name": "Portrait Background Segmentation",
-                        "type": "1",
-                        "subtype": "14",
-                        "resourceId": "143",
-                        "dependency": "0",
-                        "uid": "1614797453673884:41575",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "18446744073709551615",
-                        "source": "",
-                        "additional": ""
-                    },
-                    {
                         "name": "Render Target 2",
                         "type": "1",
                         "subtype": "1",
@@ -7912,6 +7907,19 @@
                                 "publicId": "7947",
                                 "source": "\/Users\/joyce\/Desktop\/SnapLens1\/intoducction.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "background",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "25",
+                                "dependency": "0",
+                                "uid": "1614797333380188:6860",
+                                "fileId": "28",
+                                "originalId": "29",
+                                "publicId": "982",
+                                "source": "\/Users\/joyce\/Desktop\/Ramadan-is-here 2\/Public\/background.png",
+                                "additional": ""
                             }
                         ]
                     }
@@ -7921,7 +7929,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1614806592027490:17853"
+                    "1614797587669714:64962"
                 ]
             }
         },
