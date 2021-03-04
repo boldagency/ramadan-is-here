@@ -4,7 +4,9 @@
 //@input float spawnRange {"widget":"slider","min":0, "max":1, "step":0.1}
 //@input float movingSpeedMin
 //@input float movingSpeedMax
-//@input Component.Camera camera
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Head Position Direction"}
 //@input Component.Head HeadDirectionImage
 
 //@ui {"widget":"separator"}
@@ -15,23 +17,31 @@
 //@input SceneObject StarsRegion
 
 //@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Game Duration"}
+//@input int timer
+
+//@ui {"widget":"separator"}
 //@ui {"widget":"label", "label":"Monocular"}
 // @input Component.MaterialMeshVisual monoLens
 // @input Asset.Material newMaterial
 
+
+global.fadedClouds=false; //set to true whenever you want to separate the clouds
+
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
-var startgame = false;
+//Initially the game state is 0
 var gameState = 0;
 setState(0);
-countdownStart();
+var startgame = false;
 
-var countDownDate=3;
-
+//Set Screen to Start Screen
+startGame();
 
 var spawnedObjects = [];
 var spawnTimer = 0;
-var spawnFrequency =  script.spawnFrequency; //reverse spawnFrequency so higher number would produce more frequent result, not necessary for our game but easier to understand.
+var spawnFrequency =  script.spawnFrequency; //reverse spawnFrequency so higher number would produce more frequent result.
 var spawnRange = script.spawnRange;
+
 
 //get screen position of this aka ObjectSpawner object
 var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");    
@@ -39,19 +49,22 @@ var myScreenPos = screenTransform.anchors.getCenter();
 
 
 script.createEvent("UpdateEvent").bind(function(){
-    if(script.camera ){
-     var t=  new vec2( script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x, 1);
-      script.getSceneObject().getParent().getComponent('Component.ScreenTransform').anchors.left=
-        -1 * script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x/20;
-       // print(script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition())
-      if(spawnTimer < spawnFrequency ){
-        spawnTimer += getDeltaTime();
-        }else{
-            if(startgame){
-            spawnObject();
-            spawnTimer = 0;
-            spawnFrequency = script.spawnFrequency + Math.random()*script.spawnRandomizer*2 - script.spawnRandomizer;
+    
+    if(script.getSceneObject() ){
+        
+        //update direction of 'Clouds Screen' Region depending on the Head Position/Direction
+        //Here we are updating the anchors in the oppsite direction of the user's head movement
+        script.getSceneObject().getParent().getComponent('Component.ScreenTransform').anchors.left=  -1 * script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x/20;
 
+        //Create Clouds Prefab
+        if(spawnTimer < spawnFrequency ){
+            spawnTimer += getDeltaTime();
+        }
+        else{
+            if(startgame){
+                spawnObject();
+                spawnTimer = 0;
+                spawnFrequency = script.spawnFrequency + Math.random()*script.spawnRandomizer*2 - script.spawnRandomizer;
             }
         }    
     }
@@ -85,7 +98,7 @@ function getMovementSpeed(){
 
 function setState(gameStateInt){
   gameState= gameStateInt;
-  if(script.camera)
+  if(script.getSceneObject)
    switch(gameStateInt){
        case 0://before game start
            script.StartScreen.enabled = true;
@@ -106,12 +119,14 @@ function setState(gameStateInt){
 }
 
 //Enable Counter
-function countdownStart() {
+function startGame() {
+    var countDownTotal= script.timer;
+    
     // Update the count down every 1 second
     var delayedEvent = script.createEvent('DelayedCallbackEvent')
     delayedEvent.bind(function(eventData) {
-    countDownDate  = countDownDate - 1;
-      if (countDownDate <= 0) {
+    countDownTotal  = countDownTotal - 1;
+      if (countDownTotal <= 0) {
         countdownFinished()
       } else {
         delayedEvent.reset(1)
@@ -120,10 +135,10 @@ function countdownStart() {
     delayedEvent.reset(0)
 }
 
-countDownDateGame=3;
 //Function that will run when countdowun is over
 function countdownFinished() {
     onGameStart();
+    var countDownDateGame= script.timer;
     var delayedEvent = script.createEvent('DelayedCallbackEvent')
     delayedEvent.bind(function(eventData) {
     countDownDateGame  = countDownDateGame - 1;
@@ -147,25 +162,17 @@ var countDownDateMessage=3;
 global.fadeClouds=false;
 
 
+
+
 function onGameEnd(){
-   
-    var delayedEvent = script.createEvent('DelayedCallbackEvent')
-    delayedEvent.bind(function(eventData) {
-    countDownDateMessage  = countDownDateMessage - 1;
-      if (countDownDateMessage <= 0) {
-            global.fadeClouds=true;
-            setState(2);
-            global.tweenManager.startTween( script.getSceneObject(), "clouds-alpha"); 
-            global.tweenManager.startTween( script.getSceneObject(), "clouds2-alpha"); 
-            global.tweenManager.startTween( script.getSceneObject(), "clouds3-alpha");
+    global.fadeClouds=true;
+    setState(2);
+    global.tweenManager.startTween( script.getSceneObject(), "clouds-alpha"); 
+    global.tweenManager.startTween( script.getSceneObject(), "clouds2-alpha"); 
+    global.tweenManager.startTween( script.getSceneObject(), "clouds3-alpha");
             
-            //this should be triggered after the lens experience ends.
-            script.monoLens.addMaterial(script.newMaterial);
-        } else {
-        delayedEvent.reset(1);
-      }
-    })
-    delayedEvent.reset(0);
+    //this should be triggered after the lens experience ends.
+    script.monoLens.addMaterial(script.newMaterial);
 }
 
 script.api.getMovementSpeed = getMovementSpeed;

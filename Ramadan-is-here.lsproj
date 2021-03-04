@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614869638512",
+    "lastChanged": "1614871459718",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -82,6 +82,10 @@
                     ],
                     [
                         "Material"
+                    ],
+                    [
+                        "Material",
+                        "Smoothing"
                     ],
                     [
                         "Material",
@@ -288,13 +292,6 @@
                     [
                         "Scripts",
                         "Manager"
-                    ],
-                    [
-                        "Scripts",
-                        "starsController"
-                    ],
-                    [
-                        "Smoothing"
                     ],
                     [
                         "Textures"
@@ -801,6 +798,8 @@
                 [
                     "101:100",
                     "1517446348227994:84813",
+                    "1614797315319821:3687",
+                    "1614797315321137:3689",
                     "1614797315321412:3691",
                     "1614797315356811:3852",
                     "1614797315426811:4049",
@@ -862,6 +861,7 @@
                 [
                     "1614797711106972:99799",
                     "1614797711153612:99987",
+                    "1614806592029611:17857",
                     "1614806592058929:17995",
                     "1614806592209161:18216",
                     "1614807389554238:222106",
@@ -1275,14 +1275,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "174",
-                    "uid": "1614806591811301:17624",
-                    "name": "Files\/File300.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "176",
                     "uid": "1614806591829451:17681",
                     "name": "Files\/File302.js",
@@ -1337,14 +1329,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
-                },
-                {
-                    "resId": "204",
-                    "uid": "1614842387347217:217589",
-                    "name": "Files\/File381.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
                 },
                 {
                     "resId": "206",
@@ -1870,6 +1854,14 @@
                     "resId": "279",
                     "uid": "1614869564610759:172760",
                     "name": "Files\/File486.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "281",
+                    "uid": "1614871418327878:324674",
+                    "name": "Files\/File494.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2557,10 +2549,6 @@
                     "v": "Files\/File290.lsmat"
                 },
                 {
-                    "k": "300",
-                    "v": "Files\/File300.js"
-                },
-                {
                     "k": "302",
                     "v": "Files\/File302.js"
                 },
@@ -2643,22 +2631,6 @@
                 {
                     "k": "348",
                     "v": "Files\/File348.oprfb"
-                },
-                {
-                    "k": "381",
-                    "v": "Files\/File381.pvr"
-                },
-                {
-                    "k": "382",
-                    "v": "Files\/File382.png"
-                },
-                {
-                    "k": "383",
-                    "v": "Files\/File383.png"
-                },
-                {
-                    "k": "384",
-                    "v": "Files\/File384.pvr"
                 },
                 {
                     "k": "389",
@@ -2987,6 +2959,22 @@
                 {
                     "k": "489",
                     "v": "Files\/File489.pvr"
+                },
+                {
+                    "k": "494",
+                    "v": "Files\/File494.pvr"
+                },
+                {
+                    "k": "495",
+                    "v": "Files\/File495.png"
+                },
+                {
+                    "k": "496",
+                    "v": "Files\/File496.png"
+                },
+                {
+                    "k": "497",
+                    "v": "Files\/File497.pvr"
                 }
             ]
         },
@@ -3152,10 +3140,6 @@
                         "v": "Scripts"
                     },
                     {
-                        "k": "7915",
-                        "v": "Scripts\/starsController.js"
-                    },
-                    {
                         "k": "7918",
                         "v": "Scripts\/Manager.js"
                     },
@@ -3190,10 +3174,6 @@
                     {
                         "k": "7939",
                         "v": "Prefabs\/cloud3Prefab.oprfb"
-                    },
-                    {
-                        "k": "7948",
-                        "v": "Images\/introduction.png"
                     },
                     {
                         "k": "7950",
@@ -3501,15 +3481,19 @@
                     },
                     {
                         "k": "8038",
-                        "v": "Smoothing.lsmat"
+                        "v": "Material\/Smoothing.lsmat"
                     },
                     {
                         "k": "8040",
-                        "v": "Images\/message.png"
+                        "v": "Images\/introduction.png"
                     },
                     {
                         "k": "8041",
                         "v": "Images\/title.png"
+                    },
+                    {
+                        "k": "8043",
+                        "v": "Images\/message.png"
                     }
                 ],
                 "hashes": [
@@ -4027,7 +4011,7 @@
                     },
                     {
                         "k": "7918",
-                        "v": "cf6248b9826554986f30d26a3f19e401"
+                        "v": "8f71d84ee12e23b48b9ac2ee75b22f2a"
                     },
                     {
                         "k": "7920",
@@ -4427,7 +4411,7 @@
                     },
                     {
                         "k": "8038",
-                        "v": "b1ae1b559b4e4f93d32d705cbee5ec83"
+                        "v": "204a16edf4f8ec7c2b23f7997cfba3d4"
                     },
                     {
                         "k": "8039",
@@ -4440,14 +4424,22 @@
                     {
                         "k": "8041",
                         "v": "f4adc99f1bb3cf996efc7ca2ac4083cb"
+                    },
+                    {
+                        "k": "8042",
+                        "v": "db53e1f30a20dd4b6fa3f178c793e596"
+                    },
+                    {
+                        "k": "8043",
+                        "v": "970fc521b4a8b406f03d96e8c65e36ef"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-04T16:29:47",
+                        "lastModified": "2021-03-04T16:57:29",
                         "name": "Public",
-                        "hash": "bca54dd3ad7948396e4767ef465121a7",
+                        "hash": "80bddd8dac22c0c4f64b61cc23dac1b8",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4531,7 +4523,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-03-04T16:06:26",
                                 "name": "Tween",
-                                "hash": "c809b8059c0a84fbf8830e3cac29fc38",
+                                "hash": "5c6e66cb49d5716e07d33ca1b36c086a",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -4614,9 +4606,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2021-03-04T16:37:24",
+                                        "lastModified": "2021-03-04T16:53:57",
                                         "name": "Visual Scripting Custom Nodes",
-                                        "hash": "548082d63dd7cac5f5069bcac524ecd4",
+                                        "hash": "f5310df097a206a9451f66659add262e",
                                         "children": [
                                             {
                                                 "isFolder": "true",
@@ -5106,9 +5098,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2021-03-04T16:37:24",
+                                                "lastModified": "2021-03-04T16:40:39",
                                                 "name": "All Tween Nodes.lsscript",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "hash": "cb787901446ffb2720451906a98b7edc",
                                                 "children": ""
                                             },
                                             {
@@ -5268,9 +5260,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:52:52",
+                                "lastModified": "2021-03-04T17:23:38",
                                 "name": "Images",
-                                "hash": "78f9ff774598099d1d6aa51e119a798f",
+                                "hash": "8503a9937179f3a3571acb8c0e2f3272",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5375,16 +5367,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:50:17",
+                                        "lastModified": "2021-03-04T17:23:27",
                                         "name": "message.png",
-                                        "hash": "68bacbf3b1167c1da044133299be9984",
+                                        "hash": "970fc521b4a8b406f03d96e8c65e36ef",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:06:26",
+                                        "lastModified": "2021-03-04T16:50:17",
                                         "name": "introduction.png",
-                                        "hash": "2eaadc47012a851876800a4bc1e9e732",
+                                        "hash": "68bacbf3b1167c1da044133299be9984",
                                         "children": ""
                                     },
                                     {
@@ -5405,17 +5397,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:37:16",
+                                "lastModified": "2021-03-04T17:18:43",
                                 "name": "Scripts",
-                                "hash": "9de249c5afd2b48d4772ff5ae1e3b2b0",
+                                "hash": "2b9193dbf6807cc48fd8887e67e7d2d7",
                                 "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:06:26",
-                                        "name": "starsController.js",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2021-03-04T16:06:26",
@@ -5425,9 +5410,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:28:15",
+                                        "lastModified": "2021-03-04T17:18:43",
                                         "name": "Manager.js",
-                                        "hash": "cf6248b9826554986f30d26a3f19e401",
+                                        "hash": "8f71d84ee12e23b48b9ac2ee75b22f2a",
                                         "children": ""
                                     },
                                     {
@@ -5455,9 +5440,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:06:26",
+                                "lastModified": "2021-03-04T16:57:29",
                                 "name": "Material",
-                                "hash": "28e5853511290a0d270fd4a504d1183e",
+                                "hash": "d28f025ab5f13665275ca935ecbbd876",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5510,19 +5495,19 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2021-03-04T16:57:29",
+                                        "name": "Smoothing.lsmat",
+                                        "hash": "204a16edf4f8ec7c2b23f7997cfba3d4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2021-03-04T16:06:26",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-03-04T16:06:26",
-                                "name": "Smoothing.lsmat",
-                                "hash": "b1ae1b559b4e4f93d32d705cbee5ec83",
-                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -6019,6 +6004,19 @@
                                 "publicId": "1077",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Smoothing",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "275",
+                                "dependency": "0",
+                                "uid": "1614866125364861:2707804",
+                                "fileId": "476",
+                                "originalId": "477",
+                                "publicId": "8038",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -6355,19 +6353,6 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "starsController",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "174",
-                                "dependency": "0",
-                                "uid": "1614806591811301:17624",
-                                "fileId": "300",
-                                "originalId": "18446744073709551615",
-                                "publicId": "7915",
-                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-MRmAvr\/\/system\/\/emergencyFiles\/emergencyJs.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "Manager",
                                 "type": "4",
                                 "subtype": "0",
@@ -6528,19 +6513,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "introduction",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "204",
-                                "dependency": "0",
-                                "uid": "1614842387347217:217589",
-                                "fileId": "381",
-                                "originalId": "382",
-                                "publicId": "7948",
-                                "source": "\/Users\/joyce\/Desktop\/introduction.png",
-                                "additional": ""
-                            },
-                            {
                                 "name": "star1-animated",
                                 "type": "1",
                                 "subtype": "5",
@@ -6580,7 +6552,7 @@
                                 "additional": ""
                             },
                             {
-                                "name": "message",
+                                "name": "introduction",
                                 "type": "1",
                                 "subtype": "9",
                                 "resourceId": "278",
@@ -6603,6 +6575,19 @@
                                 "originalId": "487",
                                 "publicId": "8041",
                                 "source": "\/Users\/joyce\/Desktop\/title.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "message",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "281",
+                                "dependency": "0",
+                                "uid": "1614871418327878:324674",
+                                "fileId": "494",
+                                "originalId": "495",
+                                "publicId": "8043",
+                                "source": "\/Users\/joyce\/Desktop\/message.png",
                                 "additional": ""
                             }
                         ]
@@ -7570,29 +7555,12 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "name": "Smoothing",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "275",
-                        "dependency": "0",
-                        "uid": "1614866125364861:2707804",
-                        "fileId": "476",
-                        "originalId": "477",
-                        "publicId": "8038",
-                        "source": "",
-                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1614842229234924:176850"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
@@ -8478,33 +8446,6 @@
                     }
                 },
                 {
-                    "k": "1614842387347217:217589",
-                    "v": {
-                        "infos": {
-                            "originalSize": "40353",
-                            "compressedSize": "10795",
-                            "originalRAM": "222912",
-                            "compressedRAM": "27864",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "383",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "2eaadc47012a851876800a4bc1e9e732",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "384"
-                            }
-                        ]
-                    }
-                },
-                {
                     "k": "1614862333015982:1129237",
                     "v": {
                         "infos": {
@@ -8635,6 +8576,33 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "489"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614871418327878:324674",
+                    "v": {
+                        "infos": {
+                            "originalSize": "155334",
+                            "compressedSize": "43788",
+                            "originalRAM": "1247520",
+                            "compressedRAM": "156392",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "496",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "970fc521b4a8b406f03d96e8c65e36ef",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "497"
                             }
                         ]
                     }
