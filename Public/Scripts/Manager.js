@@ -38,12 +38,15 @@ script.createEvent("UpdateEvent").bind(function(){
       script.getSceneObject().getParent().getComponent('Component.ScreenTransform').anchors.left=
         -1 * script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x;
        // print(script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition())
-      if(spawnTimer < spawnFrequency){
+      if(spawnTimer < spawnFrequency ){
         spawnTimer += getDeltaTime();
         }else{
+            if(startgame){
             spawnObject();
             spawnTimer = 0;
             spawnFrequency = script.spawnFrequency + Math.random()*script.spawnRandomizer*2 - script.spawnRandomizer;
+
+            }
         }    
     }
 });
@@ -85,17 +88,18 @@ function setState(gameStateInt){
        case 0://before game start
            script.StartScreen.enabled = true;
           script.GameScreen.enabled = false;
+        script.EndScreen.enabled = false;
        break;
        case 1://during game
            script.StartScreen.enabled = false;
            script.GameScreen.enabled = true;
+        script.EndScreen.enabled = false;
        break;
-//       case 2://after game ended
-//           script.StartScreen.enabled = false;
-//           script.ScoreScreen.enabled = false;
-//           script.EndScreen.enabled = true;
-//          script.Sound_BGM.stop(false);
-//       break;
+       case 2://after game ended
+           script.StartScreen.enabled = false;
+           script.GameScreen.enabled = true;
+           script.EndScreen.enabled = true;
+       break;
    }
 }
 
@@ -113,9 +117,42 @@ function countdownStart() {
     })
     delayedEvent.reset(0)
 }
+
+countDownDateGame=3;
 //Function that will run when countdowun is over
 function countdownFinished() {
-        setState(1);
+    onGameStart();
+    var delayedEvent = script.createEvent('DelayedCallbackEvent')
+    delayedEvent.bind(function(eventData) {
+    countDownDateGame  = countDownDateGame - 1;
+      if (countDownDateGame <= 0) {
+            startgame=false;
+             onGameEnd();
+      } else {
+        delayedEvent.reset(1)
+      }
+    })
+    delayedEvent.reset(0)
+       
+}
+
+function onGameStart(){
+     setState(1);
+    startgame=true;
+}
+var countDownDateMessage=3;
+function onGameEnd(){
+   
+     var delayedEvent = script.createEvent('DelayedCallbackEvent')
+    delayedEvent.bind(function(eventData) {
+    countDownDateMessage  = countDownDateMessage - 1;
+      if (countDownDateMessage <= 0) {
+             setState(2);
+      } else {
+        delayedEvent.reset(1)
+      }
+    })
+    delayedEvent.reset(0)
 }
 
 script.api.getMovementSpeed = getMovementSpeed;

@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614841647417",
+    "lastChanged": "1614842833827",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -44,9 +44,6 @@
                         "FaceEvent"
                     ],
                     [
-                        "Images"
-                    ],
-                    [
                         "Images",
                         "background"
                     ],
@@ -64,7 +61,11 @@
                     ],
                     [
                         "Images",
-                        "intoducction"
+                        "introduction"
+                    ],
+                    [
+                        "Images",
+                        "message"
                     ],
                     [
                         "Images",
@@ -769,9 +770,6 @@
                         "Render Target 2"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "CloudPrefabScript"
                     ],
@@ -834,12 +832,12 @@
                     "1614797315356811:3852",
                     "1614797315426811:4049",
                     "1614797374178843:21642",
+                    "1614797587649159:64823",
                     "1614797711070115:99275",
                     "1614802291030071:4535919",
                     "1614802291034461:4535957",
                     "1614806592027490:17853",
-                    "1614807453827935:233598",
-                    "1614837545714515:440274"
+                    "1614807453827935:233598"
                 ]
             ]
         },
@@ -2044,9 +2042,17 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "203",
-                    "uid": "1614837643546779:476822",
-                    "name": "Files\/File377.png",
+                    "resId": "204",
+                    "uid": "1614842387347217:217589",
+                    "name": "Files\/File381.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "205",
+                    "uid": "1614842404879543:223701",
+                    "name": "Files\/File385.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2318,6 +2324,34 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1614842229255464:177114",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614842229337183:177308",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -2352,7 +2386,8 @@
                 "23": "1614806592027490:17853",
                 "24": "1614807453827935:233598",
                 "25": "1614807453828127:233599",
-                "26": "1614837545714515:440274"
+                "26": "1614837545714515:440274",
+                "27": "1614842229217779:176590"
             }
         },
         "LayerComponent": {
@@ -3524,20 +3559,36 @@
                     "v": "Files\/File376.pvr"
                 },
                 {
-                    "k": "377",
-                    "v": "Files\/File377.pvr"
+                    "k": "381",
+                    "v": "Files\/File381.pvr"
                 },
                 {
-                    "k": "378",
-                    "v": "Files\/File378.png"
+                    "k": "382",
+                    "v": "Files\/File382.png"
                 },
                 {
-                    "k": "379",
-                    "v": "Files\/File379.png"
+                    "k": "383",
+                    "v": "Files\/File383.png"
                 },
                 {
-                    "k": "380",
-                    "v": "Files\/File380.pvr"
+                    "k": "384",
+                    "v": "Files\/File384.pvr"
+                },
+                {
+                    "k": "385",
+                    "v": "Files\/File385.pvr"
+                },
+                {
+                    "k": "386",
+                    "v": "Files\/File386.png"
+                },
+                {
+                    "k": "387",
+                    "v": "Files\/File387.png"
+                },
+                {
+                    "k": "388",
+                    "v": "Files\/File388.pvr"
                 }
             ]
         },
@@ -4103,8 +4154,12 @@
                         "v": "Images\/star4.png"
                     },
                     {
-                        "k": "7947",
-                        "v": "Images\/intoducction.png"
+                        "k": "7948",
+                        "v": "Images\/introduction.png"
+                    },
+                    {
+                        "k": "7949",
+                        "v": "Images\/message.png"
                     }
                 ],
                 "hashes": [
@@ -4622,7 +4677,7 @@
                     },
                     {
                         "k": "7918",
-                        "v": "ce60671057579266ed19e75562e6cde6"
+                        "v": "b0ace142ef370f85bfb571d14a0a1e31"
                     },
                     {
                         "k": "7920",
@@ -4731,6 +4786,14 @@
                     {
                         "k": "7947",
                         "v": "2de50449639eb077804a2df25720ea29"
+                    },
+                    {
+                        "k": "7948",
+                        "v": "2eaadc47012a851876800a4bc1e9e732"
+                    },
+                    {
+                        "k": "7949",
+                        "v": "d36969d3c46dae6f150597aed0a34883"
                     }
                 ],
                 "publicState": {
@@ -4738,7 +4801,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-03-04T09:07:11",
                         "name": "Public",
-                        "hash": "008f4fa8975f595a6da1fe532f725832",
+                        "hash": "ce7de00e35869d8f05c71f009d623188",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5548,9 +5611,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T09:07:11",
+                                "lastModified": "2021-03-04T09:20:04",
                                 "name": "Images",
-                                "hash": "d361877ddbd99dc340d83ccedc423446",
+                                "hash": "5821868b6e7960033dcce8e9c598c279",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5578,13 +5641,6 @@
                                         "lastModified": "2021-03-04T00:34:26",
                                         "name": "background.png",
                                         "hash": "adb6f9e3e8a19a1b7f14a7a571b6f53b",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-03T12:36:15",
-                                        "name": "intoducction.png",
-                                        "hash": "2de50449639eb077804a2df25720ea29",
                                         "children": ""
                                     },
                                     {
@@ -5617,9 +5673,23 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2021-03-04T09:19:28",
+                                        "name": "message.png",
+                                        "hash": "d36969d3c46dae6f150597aed0a34883",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2021-03-04T07:15:12",
                                         "name": "star7.png",
                                         "hash": "df6282f4437502186f16bc05e692a356",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-04T09:19:32",
+                                        "name": "introduction.png",
+                                        "hash": "2eaadc47012a851876800a4bc1e9e732",
                                         "children": ""
                                     },
                                     {
@@ -5654,22 +5724,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T08:11:00",
+                                "lastModified": "2021-03-04T09:26:44",
                                 "name": "Scripts",
-                                "hash": "977a994b5a722844b64dc8782b36b490",
+                                "hash": "7d2e3987963b4e4f8162dc6df56b8afd",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T07:43:19",
+                                        "lastModified": "2021-03-04T09:11:59",
                                         "name": "CloudPrefabScript.js",
                                         "hash": "0728d6a0a373417c2ad5830686a2dadd",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T08:11:00",
+                                        "lastModified": "2021-03-04T09:26:44",
                                         "name": "Manager.js",
-                                        "hash": "ce60671057579266ed19e75562e6cde6",
+                                        "hash": "b0ace142ef370f85bfb571d14a0a1e31",
                                         "children": ""
                                     },
                                     {
@@ -7896,19 +7966,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "intoducction",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "203",
-                                "dependency": "0",
-                                "uid": "1614837643546779:476822",
-                                "fileId": "377",
-                                "originalId": "378",
-                                "publicId": "7947",
-                                "source": "\/Users\/joyce\/Desktop\/SnapLens1\/intoducction.png",
-                                "additional": ""
-                            },
-                            {
                                 "name": "background",
                                 "type": "1",
                                 "subtype": "9",
@@ -7920,6 +7977,32 @@
                                 "publicId": "982",
                                 "source": "\/Users\/joyce\/Desktop\/Ramadan-is-here 2\/Public\/background.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "introduction",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "204",
+                                "dependency": "0",
+                                "uid": "1614842387347217:217589",
+                                "fileId": "381",
+                                "originalId": "382",
+                                "publicId": "7948",
+                                "source": "\/Users\/joyce\/Desktop\/introduction.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "message",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "205",
+                                "dependency": "0",
+                                "uid": "1614842404879543:223701",
+                                "fileId": "385",
+                                "originalId": "386",
+                                "publicId": "7949",
+                                "source": "\/Users\/joyce\/Desktop\/message.png",
+                                "additional": ""
                             }
                         ]
                     }
@@ -7929,7 +8012,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1614797587669714:64962"
+                    "1614842229234924:176850"
                 ]
             }
         },
@@ -9027,13 +9110,13 @@
                     }
                 },
                 {
-                    "k": "1614837643546779:476822",
+                    "k": "1614842387347217:217589",
                     "v": {
                         "infos": {
-                            "originalSize": "41385",
-                            "compressedSize": "23410",
-                            "originalRAM": "1113000",
-                            "compressedRAM": "140096",
+                            "originalSize": "40353",
+                            "compressedSize": "10795",
+                            "originalRAM": "222912",
+                            "compressedRAM": "27864",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
@@ -9041,14 +9124,41 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "379",
+                        "uncompressed_file": "383",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "2de50449639eb077804a2df25720ea29",
+                                    "uncompressed_hash": "2eaadc47012a851876800a4bc1e9e732",
                                     "settings_hash": "2049"
                                 },
-                                "v": "380"
+                                "v": "384"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614842404879543:223701",
+                    "v": {
+                        "infos": {
+                            "originalSize": "27104",
+                            "compressedSize": "10310",
+                            "originalRAM": "163480",
+                            "compressedRAM": "20944",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "387",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "d36969d3c46dae6f150597aed0a34883",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "388"
                             }
                         ]
                     }
