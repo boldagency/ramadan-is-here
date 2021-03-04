@@ -11,13 +11,24 @@ script.createEvent("UpdateEvent").bind(function(){
          var currentpos =  screenTransform.anchors.getCenter();
     
         var parent=script.getSceneObject().getComponent('Component.ScreenTransform');
-          currentpos.x -= movingSpeed * getDeltaTime();  
-         screenTransform.anchors.setCenter(currentpos);
-            
-            if(currentpos.x < -4){
+          currentpos.x -= movingSpeed * getDeltaTime()/30;  
+       
+        if(global.fadeClouds){
+            if(currentpos.x<0){
+               currentpos.x -= movingSpeed * getDeltaTime();
+            }
+            else {
+                currentpos.x += movingSpeed * getDeltaTime();
+            }
+            screenTransform.anchors.setCenter(currentpos);
+            if(currentpos.x < -30){
                 script.getSceneObject().destroy();
             }
+        }
     }
+            
+           
+    
 
   
 });

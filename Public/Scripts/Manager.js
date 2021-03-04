@@ -12,6 +12,7 @@
 //@input SceneObject StartScreen
 //@input SceneObject GameScreen
 //@input SceneObject EndScreen
+//@input SceneObject StarsRegion
 
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
 var startgame = false;
@@ -36,7 +37,7 @@ script.createEvent("UpdateEvent").bind(function(){
     if(script.camera ){
      var t=  new vec2( script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x, 1);
       script.getSceneObject().getParent().getComponent('Component.ScreenTransform').anchors.left=
-        -1 * script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x;
+        -1 * script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition().x/20;
        // print(script.HeadDirectionImage.getSceneObject().getComponent('Component.Head').getTransform().getLocalPosition())
       if(spawnTimer < spawnFrequency ){
         spawnTimer += getDeltaTime();
@@ -135,19 +136,23 @@ function countdownFinished() {
     delayedEvent.reset(0)
        
 }
-
 function onGameStart(){
      setState(1);
     startgame=true;
 }
 var countDownDateMessage=3;
+global.fadeClouds=false;
 function onGameEnd(){
    
      var delayedEvent = script.createEvent('DelayedCallbackEvent')
     delayedEvent.bind(function(eventData) {
     countDownDateMessage  = countDownDateMessage - 1;
       if (countDownDateMessage <= 0) {
+           global.fadeClouds=true;
              setState(2);
+            global.tweenManager.startTween( script.getSceneObject(), "clouds-alpha"); 
+            global.tweenManager.startTween( script.getSceneObject(), "clouds2-alpha"); 
+            global.tweenManager.startTween( script.getSceneObject(), "clouds3-alpha");
       } else {
         delayedEvent.reset(1)
       }
