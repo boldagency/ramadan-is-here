@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614871459718",
+    "lastChanged": "1614871509495",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -810,7 +810,8 @@
                     "1614802291034461:4535957",
                     "1614806592027490:17853",
                     "1614807453827935:233598",
-                    "1614837545714515:440274"
+                    "1614837545714515:440274",
+                    "1614842229217779:176590"
                 ]
             ]
         },
@@ -7560,7 +7561,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1614837545714515:440274"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
