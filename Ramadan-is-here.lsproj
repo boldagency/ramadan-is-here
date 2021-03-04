@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614872962431",
+    "lastChanged": "1614873901341",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -41,9 +41,6 @@
                         "Specular"
                     ],
                     [
-                        "Images"
-                    ],
-                    [
                         "Images",
                         "background"
                     ],
@@ -66,6 +63,14 @@
                     [
                         "Images",
                         "message"
+                    ],
+                    [
+                        "Images",
+                        "message-cloud"
+                    ],
+                    [
+                        "Images",
+                        "message-title"
                     ],
                     [
                         "Images",
@@ -813,8 +818,7 @@
                     "1614802291034461:4535957",
                     "1614806592027490:17853",
                     "1614807453827935:233598",
-                    "1614837545714515:440274",
-                    "1614842229217779:176590"
+                    "1614837545714515:440274"
                 ]
             ]
         },
@@ -1869,6 +1873,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "282",
+                    "uid": "1614873706942255:847884",
+                    "name": "Files\/File498.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "283",
+                    "uid": "1614873756496203:859731",
+                    "name": "Files\/File502.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2182,6 +2202,20 @@
                         },
                         {
                             "k": "1614869476209582:156957",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614873659045087:837617",
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
@@ -2979,6 +3013,38 @@
                 {
                     "k": "497",
                     "v": "Files\/File497.pvr"
+                },
+                {
+                    "k": "498",
+                    "v": "Files\/File498.pvr"
+                },
+                {
+                    "k": "499",
+                    "v": "Files\/File499.png"
+                },
+                {
+                    "k": "500",
+                    "v": "Files\/File500.png"
+                },
+                {
+                    "k": "501",
+                    "v": "Files\/File501.pvr"
+                },
+                {
+                    "k": "502",
+                    "v": "Files\/File502.pvr"
+                },
+                {
+                    "k": "503",
+                    "v": "Files\/File503.png"
+                },
+                {
+                    "k": "504",
+                    "v": "Files\/File504.png"
+                },
+                {
+                    "k": "505",
+                    "v": "Files\/File505.pvr"
                 }
             ]
         },
@@ -3498,6 +3564,14 @@
                     {
                         "k": "8043",
                         "v": "Images\/message.png"
+                    },
+                    {
+                        "k": "8044",
+                        "v": "Images\/message-title.png"
+                    },
+                    {
+                        "k": "8045",
+                        "v": "Images\/message-cloud.png"
                     }
                 ],
                 "hashes": [
@@ -4436,6 +4510,14 @@
                     {
                         "k": "8043",
                         "v": "970fc521b4a8b406f03d96e8c65e36ef"
+                    },
+                    {
+                        "k": "8044",
+                        "v": "aa8887b2cd1097f718a23fa2a7f907d9"
+                    },
+                    {
+                        "k": "8045",
+                        "v": "785619e364ed41efc2c273b471cbeb5b"
                     }
                 ],
                 "publicState": {
@@ -4443,7 +4525,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-03-04T16:57:29",
                         "name": "Public",
-                        "hash": "b75d9f697a28f04e0b239d79f7ed4549",
+                        "hash": "5dab5edc95b110cc197bfdddbff5b956",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5264,10 +5346,17 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T17:23:38",
+                                "lastModified": "2021-03-04T18:02:36",
                                 "name": "Images",
-                                "hash": "8503a9937179f3a3571acb8c0e2f3272",
+                                "hash": "839ae1b3f2b57d3d267325e056cbf14e",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-04T18:01:36",
+                                        "name": "message-title.png",
+                                        "hash": "aa8887b2cd1097f718a23fa2a7f907d9",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2021-03-04T16:52:34",
@@ -5323,6 +5412,13 @@
                                         "lastModified": "2021-03-04T16:06:26",
                                         "name": "background.png",
                                         "hash": "adb6f9e3e8a19a1b7f14a7a571b6f53b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-04T18:02:28",
+                                        "name": "message-cloud.png",
+                                        "hash": "785619e364ed41efc2c273b471cbeb5b",
                                         "children": ""
                                     },
                                     {
@@ -6593,6 +6689,32 @@
                                 "publicId": "8043",
                                 "source": "\/Users\/joyce\/Desktop\/message.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "message-title",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "282",
+                                "dependency": "0",
+                                "uid": "1614873706942255:847884",
+                                "fileId": "498",
+                                "originalId": "499",
+                                "publicId": "8044",
+                                "source": "\/Users\/joyce\/Desktop\/message-title.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "message-cloud",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "283",
+                                "dependency": "0",
+                                "uid": "1614873756496203:859731",
+                                "fileId": "502",
+                                "originalId": "503",
+                                "publicId": "8045",
+                                "source": "\/Users\/joyce\/Desktop\/message-cloud.png",
+                                "additional": ""
                             }
                         ]
                     },
@@ -7565,14 +7687,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1614863945355411:1574520",
-                        "path_list": [
-                            "Scripts",
-                            "CloudPrefabScript"
-                        ]
-                    }
+                "objects": [
+                    "1614873659024245:837357"
                 ]
             }
         },
@@ -8617,6 +8733,60 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "497"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614873706942255:847884",
+                    "v": {
+                        "infos": {
+                            "originalSize": "48710",
+                            "compressedSize": "16435",
+                            "originalRAM": "365820",
+                            "compressedRAM": "46512",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "500",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "aa8887b2cd1097f718a23fa2a7f907d9",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "501"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614873756496203:859731",
+                    "v": {
+                        "infos": {
+                            "originalSize": "82702",
+                            "compressedSize": "28959",
+                            "originalRAM": "897752",
+                            "compressedRAM": "112896",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "504",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "785619e364ed41efc2c273b471cbeb5b",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "505"
                             }
                         ]
                     }
