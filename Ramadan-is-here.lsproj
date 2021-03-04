@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614873901341",
+    "lastChanged": "1614878241646",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -39,6 +39,9 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Images"
                     ],
                     [
                         "Images",
@@ -180,96 +183,115 @@
                         "Monocular_Low_5"
                     ],
                     [
+                        "Prefabs"
+                    ],
+                    [
+                        "Prefabs",
                         "Monocular 2"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Animations"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Animations",
                         "Glass_Front"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Animations",
                         "Monocular_2"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Animations",
                         "Monocular_3"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Animations",
                         "Monocular_4"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials",
                         "Glass Material"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials",
                         "Monocular 1"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials",
                         "Monocular 2"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials",
                         "Monocular 3"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Materials",
                         "Monocular 4"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes",
                         "Glass_Front"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes",
                         "Monocular_1"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes",
                         "Monocular_2"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes",
                         "Monocular_3"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Meshes",
                         "Monocular_4"
                     ],
                     [
+                        "Prefabs",
                         "Monocular 2",
                         "Monocular_4"
-                    ],
-                    [
-                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -811,6 +833,7 @@
                     "1614797315321412:3691",
                     "1614797315356811:3852",
                     "1614797315426811:4049",
+                    "1614797374164148:21580",
                     "1614797374178843:21642",
                     "1614797587649159:64823",
                     "1614797711070115:99275",
@@ -818,7 +841,8 @@
                     "1614802291034461:4535957",
                     "1614806592027490:17853",
                     "1614807453827935:233598",
-                    "1614837545714515:440274"
+                    "1614837545714515:440274",
+                    "1614842229217779:176590"
                 ]
             ]
         },
@@ -829,7 +853,7 @@
                 ""
             ],
             "lens": "Ramadan is here",
-            "applicability": "3",
+            "applicability": "1",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -867,13 +891,55 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "1614797380227794:24816",
+                    "1614797380311230:24943",
+                    "1614797587649414:64824",
+                    "1614797587649916:64825",
+                    "1614797587670013:64963",
+                    "1614797587685339:65096",
                     "1614797711106972:99799",
+                    "1614797711124201:99937",
                     "1614797711153612:99987",
+                    "1614797711154163:99989",
                     "1614806592029611:17857",
                     "1614806592058929:17995",
+                    "1614806592169229:18053",
+                    "1614806592175447:18078",
                     "1614806592209161:18216",
+                    "1614806592263126:18270",
+                    "1614806592266557:18276",
+                    "1614806592294348:18414",
+                    "1614806592329088:18464",
+                    "1614806592330297:18470",
+                    "1614806592345259:18604",
+                    "1614806592372592:18654",
+                    "1614806592509979:19232",
+                    "1614806592510380:19234",
                     "1614807389554238:222106",
                     "1614807453830531:233619",
+                    "1614836736472051:187633",
+                    "1614836736486985:187767",
+                    "1614836789612375:203751",
+                    "1614836789626557:203889",
+                    "1614836811572330:210828",
+                    "1614836811587517:210962",
+                    "1614836852286127:224805",
+                    "1614836852303351:224943",
+                    "1614836880600394:232894",
+                    "1614836880617891:233028",
+                    "1614836919245490:247043",
+                    "1614836919263520:247177",
+                    "1614836942681746:254669",
+                    "1614836942698415:254804",
+                    "1614837545752590:440798",
+                    "1614837545769222:440936",
+                    "1614837545798217:440986",
+                    "1614837545798870:440988",
+                    "1614842229255464:177114",
+                    "1614842229270133:177252",
+                    "1614856392037313:66338",
+                    "1614856392052817:66476",
+                    "1614856392119663:66530",
                     "1614859714950537:224876",
                     "1614861162727129:812083",
                     "1614861236822956:851465",
@@ -884,7 +950,22 @@
                     "1614863602603822:1439207",
                     "1614863632636879:1457743",
                     "1614863658597430:1476025",
-                    "1614863689775873:1495183"
+                    "1614863689775873:1495183",
+                    "1614864800591084:1913046",
+                    "1614864960511106:1989112",
+                    "1614864996013379:2013963",
+                    "1614865024769049:2035474",
+                    "1614865048523912:2053704",
+                    "1614865075238379:2069570",
+                    "1614865101901525:2088701",
+                    "1614865122706427:2104255",
+                    "1614869476209582:156957",
+                    "1614869476224007:157091",
+                    "1614873014829627:589917",
+                    "1614873150522931:646346",
+                    "1614873659045087:837617",
+                    "1614873659062632:837755",
+                    "1614873659159856:837813"
                 ]
             ]
         },
@@ -3147,31 +3228,31 @@
                     },
                     {
                         "k": "7896",
-                        "v": "Monocular 2.fbx"
+                        "v": "Prefabs\/Monocular 2.fbx"
                     },
                     {
                         "k": "7897",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials"
                     },
                     {
                         "k": "7898",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials\/Glass Material.lsmat"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials\/Glass Material.lsmat"
                     },
                     {
                         "k": "7899",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials\/Monocular 4.lsmat"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials\/Monocular 4.lsmat"
                     },
                     {
                         "k": "7900",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials\/Monocular 3.lsmat"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials\/Monocular 3.lsmat"
                     },
                     {
                         "k": "7901",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials\/Monocular 2.lsmat"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials\/Monocular 2.lsmat"
                     },
                     {
                         "k": "7902",
-                        "v": "..\/AdditionalFiles\/Monocular 2\/Materials\/Monocular 1.lsmat"
+                        "v": "..\/AdditionalFiles\/Prefabs\/Monocular 2\/Materials\/Monocular 1.lsmat"
                     },
                     {
                         "k": "7903",
@@ -4021,23 +4102,23 @@
                     },
                     {
                         "k": "7898",
-                        "v": "ba21c7d27fafc9981a6ad428a623d03b"
+                        "v": "893946f7ace526067a1f776be57ec9fa"
                     },
                     {
                         "k": "7899",
-                        "v": "a083939ff1d7bb38e42ff8f2cd905280"
+                        "v": "61ac5f4f668faeeaf423510b3f33d183"
                     },
                     {
                         "k": "7900",
-                        "v": "8108c7f3c4bef27c12abdd6b674d363d"
+                        "v": "26d315cf6a92dfd6acb6fd384b339fe0"
                     },
                     {
                         "k": "7901",
-                        "v": "8ff7a314ad3707ea4866519e653a799b"
+                        "v": "a9c3d922c06d5e617dc3ef412a8314db"
                     },
                     {
                         "k": "7902",
-                        "v": "cf268adfc750ed80121c47361262f736"
+                        "v": "c8fd41832ee11bcdcafbdd0fdf98f886"
                     },
                     {
                         "k": "7904",
@@ -4523,9 +4604,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-04T16:57:29",
+                        "lastModified": "2021-03-04T19:17:07",
                         "name": "Public",
-                        "hash": "5dab5edc95b110cc197bfdddbff5b956",
+                        "hash": "6dd4b5fb4ea2916c4de3e43a06213134",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5310,15 +5391,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:06:26",
+                                "lastModified": "2021-03-04T19:17:07",
                                 "name": "Prefabs",
-                                "hash": "9f29b9eff552e0210923540b455baac2",
+                                "hash": "053b9a520c96390d0f551a446d0f39a0",
                                 "children": [
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2021-03-04T16:06:26",
                                         "name": "cloud3Prefab.oprfb",
                                         "hash": "6bf7b4c436c1a0babaf9704f9a775c7f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-04T16:06:26",
+                                        "name": "Monocular 2.fbx",
+                                        "hash": "ce3c130b0141666bba24ff3bf8de7b2d",
                                         "children": ""
                                     },
                                     {
@@ -5487,13 +5575,6 @@
                                         "children": ""
                                     }
                                 ]
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2021-03-04T16:06:26",
-                                "name": "Monocular 2.fbx",
-                                "hash": "ce3c130b0141666bba24ff3bf8de7b2d",
-                                "children": ""
                             },
                             {
                                 "isFolder": "true",
@@ -6121,284 +6202,6 @@
                         ]
                     },
                     {
-                        "name": "Monocular 2",
-                        "type": "18",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "2",
-                        "uid": "-1:-1",
-                        "fileId": "277",
-                        "originalId": "18446744073709551615",
-                        "publicId": "7896",
-                        "source": "\/Users\/mac 1\/Downloads\/Monocular_4.fbx",
-                        "additional": {
-                            "materialMapping": [
-                                {
-                                    "k": "Glass Material",
-                                    "v": "1614802290051879:4535410"
-                                },
-                                {
-                                    "k": "Monocular 1",
-                                    "v": "1614802290359553:4535510"
-                                },
-                                {
-                                    "k": "Monocular 2",
-                                    "v": "1614802290291497:4535487"
-                                },
-                                {
-                                    "k": "Monocular 3",
-                                    "v": "1614802290216767:4535464"
-                                },
-                                {
-                                    "k": "Monocular 4",
-                                    "v": "1614802290128745:4535437"
-                                }
-                            ]
-                        },
-                        "resources": [
-                            {
-                                "name": "Meshes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Glass_Front",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "145",
-                                        "dependency": "1",
-                                        "uid": "1614802289869330:4535272",
-                                        "fileId": "246",
-                                        "originalId": "247",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_4",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "146",
-                                        "dependency": "1",
-                                        "uid": "1614802289905513:4535290",
-                                        "fileId": "248",
-                                        "originalId": "249",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_3",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "147",
-                                        "dependency": "1",
-                                        "uid": "1614802289936993:4535308",
-                                        "fileId": "250",
-                                        "originalId": "251",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_2",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "148",
-                                        "dependency": "1",
-                                        "uid": "1614802289977689:4535326",
-                                        "fileId": "252",
-                                        "originalId": "253",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_1",
-                                        "type": "3",
-                                        "subtype": "0",
-                                        "resourceId": "149",
-                                        "dependency": "1",
-                                        "uid": "1614802290032783:4535348",
-                                        "fileId": "254",
-                                        "originalId": "255",
-                                        "publicId": "18446744073709551615",
-                                        "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Animations",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "1",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Glass_Front",
-                                        "type": "8",
-                                        "subtype": "0",
-                                        "resourceId": "150",
-                                        "dependency": "1",
-                                        "uid": "1614802290044558:4535358",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_4",
-                                        "type": "8",
-                                        "subtype": "0",
-                                        "resourceId": "151",
-                                        "dependency": "1",
-                                        "uid": "1614802290045705:4535371",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_3",
-                                        "type": "8",
-                                        "subtype": "0",
-                                        "resourceId": "152",
-                                        "dependency": "1",
-                                        "uid": "1614802290046411:4535384",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular_2",
-                                        "type": "8",
-                                        "subtype": "0",
-                                        "resourceId": "153",
-                                        "dependency": "1",
-                                        "uid": "1614802290047054:4535397",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Materials",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "7897",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Glass Material",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "154",
-                                        "dependency": "0",
-                                        "uid": "1614802290051879:4535410",
-                                        "fileId": "256",
-                                        "originalId": "257",
-                                        "publicId": "7898",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular 4",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "155",
-                                        "dependency": "0",
-                                        "uid": "1614802290128745:4535437",
-                                        "fileId": "258",
-                                        "originalId": "259",
-                                        "publicId": "7899",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular 3",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "156",
-                                        "dependency": "0",
-                                        "uid": "1614802290216767:4535464",
-                                        "fileId": "260",
-                                        "originalId": "261",
-                                        "publicId": "7900",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular 2",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "157",
-                                        "dependency": "0",
-                                        "uid": "1614802290291497:4535487",
-                                        "fileId": "262",
-                                        "originalId": "263",
-                                        "publicId": "7901",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Monocular 1",
-                                        "type": "2",
-                                        "subtype": "0",
-                                        "resourceId": "158",
-                                        "dependency": "0",
-                                        "uid": "1614802290359553:4535510",
-                                        "fileId": "264",
-                                        "originalId": "265",
-                                        "publicId": "7902",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Monocular_4",
-                                "type": "12",
-                                "subtype": "-1",
-                                "resourceId": "164",
-                                "dependency": "1",
-                                "uid": "1614802290728478:4535748",
-                                "fileId": "276",
-                                "originalId": "278",
-                                "publicId": "18446744073709551615",
-                                "source": "",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "Echopark",
                         "type": "9",
                         "subtype": "-1",
@@ -6544,6 +6347,284 @@
                                 "publicId": "7939",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Monocular 2",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "277",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7896",
+                                "source": "\/Users\/mac 1\/Downloads\/Monocular_4.fbx",
+                                "additional": {
+                                    "materialMapping": [
+                                        {
+                                            "k": "Glass Material",
+                                            "v": "1614802290051879:4535410"
+                                        },
+                                        {
+                                            "k": "Monocular 1",
+                                            "v": "1614802290359553:4535510"
+                                        },
+                                        {
+                                            "k": "Monocular 2",
+                                            "v": "1614802290291497:4535487"
+                                        },
+                                        {
+                                            "k": "Monocular 3",
+                                            "v": "1614802290216767:4535464"
+                                        },
+                                        {
+                                            "k": "Monocular 4",
+                                            "v": "1614802290128745:4535437"
+                                        }
+                                    ]
+                                },
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Glass_Front",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "145",
+                                                "dependency": "1",
+                                                "uid": "1614802289869330:4535272",
+                                                "fileId": "246",
+                                                "originalId": "247",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_4",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "146",
+                                                "dependency": "1",
+                                                "uid": "1614802289905513:4535290",
+                                                "fileId": "248",
+                                                "originalId": "249",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_3",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "147",
+                                                "dependency": "1",
+                                                "uid": "1614802289936993:4535308",
+                                                "fileId": "250",
+                                                "originalId": "251",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_2",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "148",
+                                                "dependency": "1",
+                                                "uid": "1614802289977689:4535326",
+                                                "fileId": "252",
+                                                "originalId": "253",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_1",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "149",
+                                                "dependency": "1",
+                                                "uid": "1614802290032783:4535348",
+                                                "fileId": "254",
+                                                "originalId": "255",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/private\/var\/folders\/41\/xtb2k0d51fl576qs886j02g80000gq\/T\/Lens Studio-dmLBRC\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Glass_Front",
+                                                "type": "8",
+                                                "subtype": "0",
+                                                "resourceId": "150",
+                                                "dependency": "1",
+                                                "uid": "1614802290044558:4535358",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_4",
+                                                "type": "8",
+                                                "subtype": "0",
+                                                "resourceId": "151",
+                                                "dependency": "1",
+                                                "uid": "1614802290045705:4535371",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_3",
+                                                "type": "8",
+                                                "subtype": "0",
+                                                "resourceId": "152",
+                                                "dependency": "1",
+                                                "uid": "1614802290046411:4535384",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular_2",
+                                                "type": "8",
+                                                "subtype": "0",
+                                                "resourceId": "153",
+                                                "dependency": "1",
+                                                "uid": "1614802290047054:4535397",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Materials",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "7897",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Glass Material",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "154",
+                                                "dependency": "0",
+                                                "uid": "1614802290051879:4535410",
+                                                "fileId": "256",
+                                                "originalId": "257",
+                                                "publicId": "7898",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular 4",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "155",
+                                                "dependency": "0",
+                                                "uid": "1614802290128745:4535437",
+                                                "fileId": "258",
+                                                "originalId": "259",
+                                                "publicId": "7899",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular 3",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "156",
+                                                "dependency": "0",
+                                                "uid": "1614802290216767:4535464",
+                                                "fileId": "260",
+                                                "originalId": "261",
+                                                "publicId": "7900",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular 2",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "157",
+                                                "dependency": "0",
+                                                "uid": "1614802290291497:4535487",
+                                                "fileId": "262",
+                                                "originalId": "263",
+                                                "publicId": "7901",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Monocular 1",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "158",
+                                                "dependency": "0",
+                                                "uid": "1614802290359553:4535510",
+                                                "fileId": "264",
+                                                "originalId": "265",
+                                                "publicId": "7902",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Monocular_4",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "164",
+                                        "dependency": "1",
+                                        "uid": "1614802290728478:4535748",
+                                        "fileId": "276",
+                                        "originalId": "278",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -7688,7 +7769,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1614873659024245:837357"
+                    "1614866125313808:2707738"
                 ]
             }
         },
