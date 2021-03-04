@@ -14,6 +14,11 @@
 //@input SceneObject EndScreen
 //@input SceneObject StarsRegion
 
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Monocular"}
+// @input Component.MaterialMeshVisual monoLens
+// @input Asset.Material newMaterial
+
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
 var startgame = false;
 var gameState = 0;
@@ -53,16 +58,12 @@ script.createEvent("UpdateEvent").bind(function(){
 });
 
 
-
-
 function spawnObject(){
-
-        //creating a copy of the prefab   
+    //creating a copy of the prefab   
     var randomIndex = Math.floor(Math.random()*script.objectPrefab.length);
     var newObj = script.objectPrefab[randomIndex].instantiate(script.getSceneObject().getParent());
     newObj.name = "Cookie" + spawnedObjects.length.toString();
     spawnedObjects.push(newObj);
-    
     
    //randomize position with range
     var randomXpos = 3;
@@ -140,24 +141,31 @@ function onGameStart(){
      setState(1);
     startgame=true;
 }
+
+
 var countDownDateMessage=3;
 global.fadeClouds=false;
+
+
 function onGameEnd(){
    
-     var delayedEvent = script.createEvent('DelayedCallbackEvent')
+    var delayedEvent = script.createEvent('DelayedCallbackEvent')
     delayedEvent.bind(function(eventData) {
     countDownDateMessage  = countDownDateMessage - 1;
       if (countDownDateMessage <= 0) {
-           global.fadeClouds=true;
-             setState(2);
+            global.fadeClouds=true;
+            setState(2);
             global.tweenManager.startTween( script.getSceneObject(), "clouds-alpha"); 
             global.tweenManager.startTween( script.getSceneObject(), "clouds2-alpha"); 
             global.tweenManager.startTween( script.getSceneObject(), "clouds3-alpha");
-      } else {
-        delayedEvent.reset(1)
+            
+            //this should be triggered after the lens experience ends.
+            script.monoLens.addMaterial(script.newMaterial);
+        } else {
+        delayedEvent.reset(1);
       }
     })
-    delayedEvent.reset(0)
+    delayedEvent.reset(0);
 }
 
 script.api.getMovementSpeed = getMovementSpeed;
