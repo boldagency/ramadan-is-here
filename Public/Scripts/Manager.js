@@ -26,7 +26,7 @@
 // @input Asset.Material newMaterial
 
 
-global.fadedClouds=false; //set to true whenever you want to separate the clouds
+global.fadeClouds=false; //set to true whenever you want to separate the clouds
 
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
 //Initially the game state is 0
@@ -75,7 +75,7 @@ function spawnObject(){
     //creating a copy of the prefab   
     var randomIndex = Math.floor(Math.random()*script.objectPrefab.length);
     var newObj = script.objectPrefab[randomIndex].instantiate(script.getSceneObject().getParent());
-    newObj.name = "Cookie" + spawnedObjects.length.toString();
+    newObj.name = "cloud" + spawnedObjects.length.toString();
     spawnedObjects.push(newObj);
     
    //randomize position with range
@@ -90,26 +90,31 @@ function spawnObject(){
 }
 
 
-
+//Generate Random Number for Clouds Speeds
 function getMovementSpeed(){
    return Math.random() * (script.movingSpeedMax - script.movingSpeedMin) + script.movingSpeedMin ;
 }
 
 
+//Set State of the App
+// 1--Start Screen  2--Game Screen 3-- End Screen
 function setState(gameStateInt){
-  gameState= gameStateInt;
-  if(script.getSceneObject)
+  
+  gameState= gameStateInt; // set gameState 
+    
    switch(gameStateInt){
        case 0://before game start
-           script.StartScreen.enabled = true;
-          script.GameScreen.enabled = false;
+        script.StartScreen.enabled = true;
+        script.GameScreen.enabled = false;
         script.EndScreen.enabled = false;
        break;
+        
        case 1://during game
-           script.StartScreen.enabled = false;
-           script.GameScreen.enabled = true;
+        script.StartScreen.enabled = false;
+        script.GameScreen.enabled = true;
         script.EndScreen.enabled = false;
        break;
+        
        case 2://after game ended
            script.StartScreen.enabled = false;
            script.GameScreen.enabled = true;
@@ -118,55 +123,55 @@ function setState(gameStateInt){
    }
 }
 
-//Enable Counter
+//Enable Start Screen Region
+//1-- after a specific number of seconds(script.timer), the start screen should fadeOut and Game Screen should start
 function startGame() {
-    var countDownTotal= script.timer;
     
-    // Update the count down every 1 second
-    var delayedEvent = script.createEvent('DelayedCallbackEvent')
-    delayedEvent.bind(function(eventData) {
-    countDownTotal  = countDownTotal - 1;
-      if (countDownTotal <= 0) {
-        countdownFinished()
-      } else {
-        delayedEvent.reset(1)
-      }
-    })
-    delayedEvent.reset(0)
+    var duration= script.timer/2;  // Duration of the first screen
+    countDown(duration, 0)
 }
 
-//Function that will run when countdowun is over
-function countdownFinished() {
-    onGameStart();
-    var countDownDateGame= script.timer;
-    var delayedEvent = script.createEvent('DelayedCallbackEvent')
-    delayedEvent.bind(function(eventData) {
-    countDownDateGame  = countDownDateGame - 1;
-      if (countDownDateGame <= 0) {
-            startgame=false;
-             onGameEnd();
-      } else {
-        delayedEvent.reset(1)
-      }
-    })
-    delayedEvent.reset(0)
-       
-}
+
+//Enable Game Region
+//1-- after a specific number of seconds(script.timer), the game screen should fadeOut and End Screen should fadeIn
 function onGameStart(){
      setState(1);
-    startgame=true;
+     startgame=true;
+    
+    countDown(script.timer, 1)
 }
 
+//Timer Function that takes 2 arguments:
+//1--timer define the overall duration of the interval
+//2--state  is the current screen state (0-Start Screen 1-FGame Screen 2-End Screen)
+function countDown(timer, state){
+     var countDownDateGame= timer;
+     var delayedEvent = script.createEvent('DelayedCallbackEvent')
+        delayedEvent.bind(function(eventData) {
+            countDownDateGame  = countDownDateGame - 1;
+            if (countDownDateGame <= 0) {
+                if(state==0){
+                    onGameStart();
+                }
+                if(state==1){
+                    onGameEnd();
+                }
+                startgame=false;
+            } else {
+                delayedEvent.reset(1)
+            }
+        })
+        delayedEvent.reset(0)
 
-var countDownDateMessage=3;
-global.fadeClouds=false;
+}
 
-
-
-
+//Function that will show the End Screen
 function onGameEnd(){
     global.fadeClouds=true;
+    startgame=false;
     setState(2);
+    
+    //FadeOut the clouds
     global.tweenManager.startTween( script.getSceneObject(), "clouds-alpha"); 
     global.tweenManager.startTween( script.getSceneObject(), "clouds2-alpha"); 
     global.tweenManager.startTween( script.getSceneObject(), "clouds3-alpha");

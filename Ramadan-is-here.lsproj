@@ -3,7 +3,7 @@
     "document_id": "mD3vcDenijfoohY_OtNJ",
     "original_document_id": "mD3vcDenijfoohY_OtNJ",
     "version": "26",
-    "lastChanged": "1614871509495",
+    "lastChanged": "1614872962431",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -39,6 +39,9 @@
                     [
                         "Echopark",
                         "Specular"
+                    ],
+                    [
+                        "Images"
                     ],
                     [
                         "Images",
@@ -4012,7 +4015,7 @@
                     },
                     {
                         "k": "7918",
-                        "v": "8f71d84ee12e23b48b9ac2ee75b22f2a"
+                        "v": "37b1e0c893c2a9a49003863f41430c1d"
                     },
                     {
                         "k": "7920",
@@ -4408,7 +4411,7 @@
                     },
                     {
                         "k": "8037",
-                        "v": "d49b8ae10c3af37549003e745bac575c"
+                        "v": "d868fc833be492aa1e7cc9f769307389"
                     },
                     {
                         "k": "8038",
@@ -4440,7 +4443,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-03-04T16:57:29",
                         "name": "Public",
-                        "hash": "80bddd8dac22c0c4f64b61cc23dac1b8",
+                        "hash": "b75d9f697a28f04e0b239d79f7ed4549",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5398,22 +5401,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T17:18:43",
+                                "lastModified": "2021-03-04T17:48:37",
                                 "name": "Scripts",
-                                "hash": "2b9193dbf6807cc48fd8887e67e7d2d7",
+                                "hash": "732dd7d31fa38c599ba6835700ffd46d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:06:26",
+                                        "lastModified": "2021-03-04T17:48:37",
                                         "name": "CloudPrefabScript.js",
-                                        "hash": "d49b8ae10c3af37549003e745bac575c",
+                                        "hash": "d868fc833be492aa1e7cc9f769307389",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T17:18:43",
+                                        "lastModified": "2021-03-04T17:44:04",
                                         "name": "Manager.js",
-                                        "hash": "8f71d84ee12e23b48b9ac2ee75b22f2a",
+                                        "hash": "37b1e0c893c2a9a49003863f41430c1d",
                                         "children": ""
                                     },
                                     {
@@ -7562,8 +7565,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1614837545714515:440274"
+                "resources": [
+                    {
+                        "uid": "1614863945355411:1574520",
+                        "path_list": [
+                            "Scripts",
+                            "CloudPrefabScript"
+                        ]
+                    }
                 ]
             }
         },
